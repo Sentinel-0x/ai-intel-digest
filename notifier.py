@@ -1,5 +1,8 @@
 import requests
 import re
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 class NotificationEngine:
     def __init__(self, tg_token: str, tg_chat_id: str):
@@ -8,7 +11,7 @@ class NotificationEngine:
 
     def send_telegram_alert(self, message: str):
         if not self.tg_token or not self.tg_chat_id:
-            print("[*] [通知模拟] Telegram Token 未配置，已拦截外发。目标账号: @Melody0x_8")
+            print(f"[*] [通知模拟] Telegram Token 未配置，已拦截外发。目标账号: {os.environ.get('TELEGRAM_HANDLE', 'N/A')}")
             return
         
         url = f"https://api.telegram.org/bot{self.tg_token}/sendMessage"
