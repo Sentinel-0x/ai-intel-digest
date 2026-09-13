@@ -28,6 +28,8 @@ test_*.py
 
 # --- 其他 ---
 # 大型二进制模型文件（如果有的话）
-models/tailored_resume.pdf
+models/
+tailored_resume.pdf
 *.pdf
 models/
+tailored_resume.pdf
