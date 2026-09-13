@@ -2,9 +2,11 @@ import os
 import requests
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 from logger import logger  # 1. 导入刚才第一步创建的 logger 模块
+from dotenv import load_dotenv
+load_dotenv()
 
-TELEGRAM_BOT_TOKEN = "8816811327:AAFozbfIqBhUKEkuS9a30i..." # 保持你原来的配置
-TELEGRAM_CHAT_ID = "8172433983"
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN") # 保持你原来的配置
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 @retry(
     wait=wait_random_exponential(min=1, max=60), 
