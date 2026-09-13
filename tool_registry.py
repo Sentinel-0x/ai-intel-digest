@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "sentinel-react-engine"))
 from ast_guard import inspect_code_safety
 from sandbox_executor import run_code_in_sandbox
 
