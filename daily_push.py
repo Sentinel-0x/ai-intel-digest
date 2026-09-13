@@ -3,10 +3,12 @@ import json
 import os
 import requests
 import feedparser
+from dotenv import load_dotenv
+load_dotenv()
 
 # ---------------- 配置区 ----------------
-TELEGRAM_BOT_TOKEN = "TELEGRAM_TOKEN_REMOVED"
-TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 SEEN_CACHE_FILE = "seen_items.json"
 
