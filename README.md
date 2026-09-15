@@ -4,17 +4,17 @@
 
 <br />
 <div align="center">
-  <h3 align="center">📡 Sentinel Agent</h3>
+  <h3 align="center">📡 AI Intel Digest</h3>
 
   <p align="center">
     An automated AI/tech intelligence pipeline — scrapes Twitter/RSS sources, filters and ranks with an LLM, and pushes a curated daily digest via Telegram.
     <br />
-    <a href="https://github.com/Sentinel-0x/Sentinel-agent"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Sentinel-0x/ai-intel-digest"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Sentinel-0x/Sentinel-agent/issues/new?labels=bug">Report Bug</a>
+    <a href="https://github.com/Sentinel-0x/ai-intel-digest/issues/new?labels=bug">Report Bug</a>
     ·
-    <a href="https://github.com/Sentinel-0x/Sentinel-agent/issues/new?labels=enhancement">Request Feature</a>
+    <a href="https://github.com/Sentinel-0x/ai-intel-digest/issues/new?labels=enhancement">Request Feature</a>
   </p>
 </div>
 
@@ -64,8 +64,8 @@ Keeping up with AI/tech news across Twitter and research feeds is a full-time jo
 
 1. Clone the repo
 ```sh
-   git clone https://github.com/Sentinel-0x/Sentinel-agent.git
-   cd Sentinel-agent
+   git clone https://github.com/Sentinel-0x/ai-intel-digest.git
+   cd ai-intel-digest
 ```
 2. Install dependencies
 ```sh
@@ -96,7 +96,7 @@ Keeping up with AI/tech news across Twitter and research feeds is a full-time jo
 - [ ] Expand source coverage beyond current handles
 - [ ] Add automated test coverage for the fetch/analyze pipeline
 
-See the [open issues](https://github.com/Sentinel-0x/Sentinel-agent/issues) for a full list of proposed features.
+See the [open issues](https://github.com/Sentinel-0x/ai-intel-digest/issues) for a full list of proposed features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,13 +118,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Project Link: [https://github.com/Sentinel-0x/Sentinel-agent](https://github.com/Sentinel-0x/Sentinel-agent)
+Project Link: [https://github.com/Sentinel-0x/ai-intel-digest](https://github.com/Sentinel-0x/ai-intel-digest)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/Sentinel-0x/Sentinel-agent.svg?style=for-the-badge
-[license-url]: https://github.com/Sentinel-0x/Sentinel-agent/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/Sentinel-0x/ai-intel-digest.svg?style=for-the-badge
+[license-url]: https://github.com/Sentinel-0x/ai-intel-digest/blob/main/LICENSE
 [Python-badge]: https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
 [Telegram-badge]: https://img.shields.io/badge/Telegram-push%20notifications-26A5E4?style=for-the-badge&logo=telegram&logoColor=white
