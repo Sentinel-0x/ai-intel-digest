@@ -28,18 +28,3 @@ class NotificationEngine:
                 print(f"[!] Telegram 发送失败: {response.text}")
         except Exception as e:
             print(f"[!] Telegram 网络异常: {e}")
-
-    def smart_filter_email(self, email_subject: str, email_body: str) -> bool:
-        rejection_keywords = ["unfortunately", "regret", "not moving forward", "closed", "other candidates"]
-        body_lower = f"{email_subject} {email_body}".lower()
-        
-        for kw in rejection_keywords:
-            if kw in body_lower:
-                return False
-        
-        positive_keywords = ["interview", "schedule", "call", "discussion", "chat", "next steps"]
-        for kw in positive_keywords:
-            if kw in body_lower:
-                return True
-                
-        return False
