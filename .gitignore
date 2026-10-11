@@ -33,3 +33,13 @@ tailored_resume.pdf
 *.pdf
 models/
 tailored_resume.pdf
+
+# runtime files and local snapshots
+all_code_summary.txt
+*.log
+*.db
+*.db-shm
+*.db-wal
+junit/
+__pycache__/
+*.pyc
