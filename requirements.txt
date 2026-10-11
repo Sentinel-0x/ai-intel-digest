@@ -19,7 +19,7 @@ idna==3.18
 iniconfig==2.3.0
 Jinja2==3.1.6
 jiter==0.16.0
-llama_cpp_python @ file:///mnt/c/Users/USER/Downloads/llama_cpp_python-0.3.35-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=0acc0e07b9b607ce73da10eec7aea53838f7e540c5c43bddd805afb1892b45ea
+llama-cpp-python
 MarkupSafe==3.0.3
 numpy==2.5.2
 openai==2.53.0
